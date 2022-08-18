@@ -19,6 +19,8 @@ func main() {
 	}
 	person2:= person1("Arash" , "rahimi")
 	fmt.Println(person2.FirstName)
+	fmt.Println("we are developing new features")
+
 }
 
 
