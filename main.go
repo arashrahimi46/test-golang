@@ -21,8 +21,10 @@ func main() {
 	fmt.Println(person2.FirstName)
 }
 
-func (p *Person)GetAge() int{
-	return p.Age
+
+
+func (p *Person)GetName()string {
+	return p.FirstName + " " + p.LastName
 }
 
 
